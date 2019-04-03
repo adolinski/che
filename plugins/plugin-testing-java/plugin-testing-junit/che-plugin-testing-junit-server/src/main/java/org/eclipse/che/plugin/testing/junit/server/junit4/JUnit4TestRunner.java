@@ -33,8 +33,8 @@ public class JUnit4TestRunner extends AbstractJavaTestRunner {
 
   private static final String JUNIT_TEST_NAME = "junit";
   private static final String MAIN_CLASS_NAME = "org.eclipse.che.junit.junit4.CheJUnitLauncher";
-  private static final String TEST_METHOD_ANNOTATION = "org.junit.Test";
-  private static final String TEST_CLASS_ANNOTATION = "org.junit.runner.RunWith";
+  private static final String TEST_METHOD_ANNOTATION = "org.junit.jupiter.api.Test";
+  private static final String TEST_CLASS_ANNOTATION = "org.junit.jupiter.api.extension.ExtendWith";
 
   private String workspacePath;
 
